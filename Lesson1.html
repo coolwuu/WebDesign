@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+    <style>
+        .article {
+            float: left;
+                clear:left
+        }
+         .heading {
+             float : left
+         }
+        .login {
+            float:  right
+        }
+    </style>
+</head>
+<body>
+<div class="Container">
+    <header>
+        <div class="heading">
+            <h1>Hello Html</h1>
+        </div>
+        <div class="login">
+            <p>
+                Account: <input type="text"> Password: <input type="password"/>
+            </p>
+            <p>
+                <input type="button" value="Login"/>
+            </p>
+        </div>
+    </header>
+    <div class="article">
+        <p>
+            <h3>A Software Studio Execise</h3>
+        </p>
+        <p>
+            The action attribute defines the action to be performed when the form is submitted.
+
+            Normally, the form data is sent to a web page on the server when the user clicks on the submit button.
+
+            In the example above, the form data is sent to a page on the server called "/action_page.php". This page contains a server-side script that handles the form data:
+        </p>
+        <hr/>
+        <p>Do you find this article useful? Yes<input type="radio"/> No <input type="radio"/>
+        </p>
+        <p>What is your favourite language?
+            <select aria-valuetext="Choose">
+                <option>C#</option>
+                <option>PowerShell</option>
+                <option>Html</option>
+            </select>
+
+        </p>
+        <p><input type="button" value="FeedBack"/></p>
+    </div>
+
+</div>
+
+</body>
+</html>
